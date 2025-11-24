@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Activity Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>🎯 Random Activity Explorer</h2>
+
+    <select id="typeSelect">
+        <option value="">All Types</option>
+        <option value="education">Education</option>
+        <option value="recreational">Recreational</option>
+        <option value="social">Social</option>
+        <option value="diy">DIY</option>
+        <option value="charity">Charity</option>
+        <option value="cooking">Cooking</option>
+        <option value="relaxation">Relaxation</option>
+        <option value="music">Music</option>
+        <option value="busywork">Busywork</option>
+    </select>
+
+    <button id="btn">Get Activity</button>
+
+    <p id="message"></p>
+
+    <div id="card" class="card">
+        <p><strong>Activity:</strong> <span id="activity"></span></p>
+        <p><strong>Type:</strong> <span id="type"></span></p>
+        <p><strong>Participants:</strong> <span id="participants"></span></p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
